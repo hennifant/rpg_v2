@@ -4,17 +4,17 @@ var selected_menu = 0
 
 
 func change_menu_color():
-	$NewGame.color = Color.gray
-	$LoadGame.color = Color.gray
-	$Quit.color = Color.gray
+	$NewGame.color = Color.beige
+	$LoadGame.color = Color.beige
+	$Quit.color = Color.beige
 	
 	match selected_menu:
 		0:
-			$NewGame.color = Color.greenyellow
+			$NewGame.color = Color.indianred
 		1:
-			$LoadGame.color = Color.greenyellow
+			$LoadGame.color = Color.indianred
 		2:
-			$Quit.color = Color.greenyellow
+			$Quit.color = Color.indianred
 
 
 func _ready():
